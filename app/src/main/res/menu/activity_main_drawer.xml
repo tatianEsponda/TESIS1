@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nuevatarea"
+            android:icon="@drawable/tarea"
+            android:title="Nueva tarea" />
+        <item
+            android:id="@+id/tarea"
+            android:icon="@drawable/meta"
+            android:title="Mis tareas" />
+
+        <item
+            android:id="@+id/estado"
+            android:icon="@drawable/feliz"
+            android:title="Mis Estados" />
+        <item
+            android:id="@+id/calendario"
+            android:icon="@drawable/calendario"
+            android:title="Horario de Atención" />
+        <item
+            android:id="@+id/recompensa"
+            android:icon="@drawable/trofeo"
+            android:title="Mis Recompensas" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/redes"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Redes Sociales" />
+            <item
+                android:id="@+id/correo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar Correo" />
+        </menu>
+    </item>
+
+</menu>
